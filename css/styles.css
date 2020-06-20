@@ -124,6 +124,24 @@ footer a{
   margin-bottom: 1.6em;
 }
 
+/* Media Queries */
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+
+
+
+
+
+
+
+
 /* Clear Fix */
 .clearfix::after {
   content: '';
