@@ -3,59 +3,66 @@
   <head>
     <meta charset="utf-8">
     <title>Ioannis Tsimpiris</title>
+    <link rel="stylesheet" href="css\normalize.css">
     <link rel="stylesheet" href="css\styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   </head>
+
   <body>
-    <header>
-      <h1>Ioannis Tsimpiris</h1>
-      <nav class="main-nav">
-        <ul>
-          <li>Home</li>
-          <li>Portfolio</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <article class="welcome-msg">
-        <figure>
-          <img src="images\responsive-layout-profile.png" alt="Responsive Layout Profile Image" class = "main-image">
-        </figure>
-        <p>Hello, This is my first attempt to create a portfolio website to present my Front End Web Development Projects</p>
-      </article>
-      <section class="portfolio">
-        <h2>Portfolio</h2>
-        <img src="images\portfolio-1.png" alt="Marketing Page">
-        <p>Marketing Page</p>
-        <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
-        <img src="images\portfolio-2.png" alt="Search Page">
-        <p>Search Page</p>
-        <p>This project searches through a specific database to find information that the user is trying to look up.</p>
-        <img src="images\portfolio-3.png" alt="Travel App">
-        <p>Travel App</p>
-        <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
-        <img src="images\portfolio-4.png" alt="Map of Favourite Spots">
-        <p>Map of Favourite Spots</p>
-        <p>This project uses mapping apis to plot points  for my favourite spots in the city for a do-it-yourself  walking tour.</p>
-        <img src="images\portfolio-5.png" alt="Photo Gallery">
-        <p>Photo Gallery</p>
-        <p>This project shows pictures  from a recent trip to the viewer and allows them to easily navigate through photos.</p>
-        <img src="images\portfolio-6.png" alt="Calculator">
-        <p>Calculator</p>
-        <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
-      </section>
-      <section class="contact">
-        <h2>Contact</h2>
-        <p>If you 're interested in chatting or want more information about what I 've been working on, I 'd love to hear from you!'</p>
-        <p>Phone +44 07547205499</p>
-        <p>E-mail ioannis@tsimpiris.com</p>
-      </section>
-    </main>
-    <footer>
-      <p>Ioannis Tsimpiris</p>
-      <a href="#top">Back to top</a>
-    </footer>
+    <div class="wrapper">
+      <header>
+        <h1>Ioannis Tsimpiris</h1>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <article class="welcome-msg">
+          <figure>
+            <img src="images\responsive-layout-profile.png" alt="Responsive Layout Profile Image" class = "main-image">
+          </figure>
+          <p>Hello, This is my first attempt to create a portfolio website to present my Front End Web Development Projects</p>
+        </article>
+      </header>
+
+      <main>
+        <section id="portfolio" class="portfolio">
+          <h2>Portfolio</h2>
+          <img src="images\portfolio-1.png" alt="Marketing Page">
+          <p><strong>Marketing Page</strong></p>
+          <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+          <img src="images\portfolio-2.png" alt="Search Page">
+          <p><strong>Search Page</strong></p>
+          <p>This project searches through a specific database to find information that the user is trying to look up.</p>
+          <img src="images\portfolio-3.png" alt="Travel App">
+          <p><strong>Travel App</strong></p>
+          <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+          <img src="images\portfolio-4.png" alt="Map of Favourite Spots">
+          <p><strong>Map of Favourite Spots</strong></p>
+          <p>This project uses mapping apis to plot points  for my favourite spots in the city for a do-it-yourself  walking tour.</p>
+          <img src="images\portfolio-5.png" alt="Photo Gallery">
+          <p><strong>Photo Gallery</strong></p>
+          <p>This project shows pictures  from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+          <img src="images\portfolio-6.png" alt="Calculator">
+          <p><strong>Calculator</strong></p>
+          <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+        </section>
+
+        <section id="contact" class="contact">
+          <h2>Contact</h2>
+          <p>If you 're interested in chatting or want more information about what I 've been working on, I 'd love to hear from you!'</p>
+          <p class = "phone">Phone &nbsp;&nbsp;<strong>+44 07547205499</strong></p>
+          <p>Email &nbsp;&nbsp;<strong>ioannis@tsimpiris.com</strong></p>
+        </section>
+      </main>
+
+      <footer>
+        <p>Ioannis Tsimpiris</p>
+        <a href="#top">Back to top</a>
+      </footer>
+    </div>
   </body>
 </html>
