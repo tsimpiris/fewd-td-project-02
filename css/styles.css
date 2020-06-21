@@ -89,7 +89,7 @@ header p {
 
 .portfolio p:nth-of-type(even) {
   margin: 0 5% 2.5em 5%;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 .contact {
@@ -249,15 +249,34 @@ h1 {
   margin: 0 0;
 }
 
+.portfolio {
+  width: 90%;
+  margin: 0 5%;
+
 }
 
+.marketing-page,
+.search-page,
+.travel-app,
+.spot-map,
+.photo-gallery,
+.calculator {
+  width: 33.33%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
 
+footer {
+  margin-bottom: 0;
+}
 
-
-
-
-
-
+.contact p {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+}
 
 /* Clear Fix */
 .clearfix::after {
