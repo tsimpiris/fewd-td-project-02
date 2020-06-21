@@ -9,6 +9,10 @@ body {
   width: 100%
 }
 
+html {
+  background-color: #FAFAFA;
+}
+
 h1 {
   font-size: 1.8em;
   color: #4a4844;
@@ -26,9 +30,10 @@ ul {
 
 .main-nav li {
   list-style-type: none;
-  padding-left: 0;
   display: block;
   padding: 1em;
+  background-color: #FFFFFF;
+  margin: 0.3em 1em;
 }
 
 img.main-image {
@@ -60,6 +65,10 @@ header p {
   color: #808080;
   padding-bottom: 4em;
   margin: 0 5%;
+}
+
+.portfolio {
+  background-color: #FFFFFF;
 }
 
 .portfolio img {
@@ -139,6 +148,7 @@ h1 {
   padding-left: 0;
   display: inline-block;
   padding: 1em;
+  background-color: #FAFAFA;
 }
 
 img.main-image {
